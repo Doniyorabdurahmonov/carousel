@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-control-prev {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+    opacity: 1;
+    position: absolute;
+    top: 45%;
+    left: -2%;
+}
+
+.carousel-control-next {
+    position: absolute;
+    top: 45%;
+    right: -2%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+    opacity: 1;
+
+}
+
+
+/*.carousel-indicators li{*/
+/*    transition: 0.7s;*/
+/*}*/
+/*.carousel-indicators li:hover{*/
+/*    width: 200px;*/
+/*    height: 100%;*/
+/*    opacity: 1;*/
+/*}*/
+
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -30%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.carousel-indicators li {
+    padding: 10px;
+    width: 100%;
+!important;
+    height: 190px;
+!important;
+    border: none;
+}
